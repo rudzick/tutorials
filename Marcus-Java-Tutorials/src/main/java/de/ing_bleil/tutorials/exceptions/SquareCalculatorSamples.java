@@ -25,6 +25,15 @@ public class SquareCalculatorSamples {
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+
+		try {
+			calculator.sideLength(-40.0);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		calculator.sideLengthSilent(-40.0);
 	}
 
 }
